@@ -272,24 +272,60 @@ footer {
   html {
     font-size: 37.5%;
   }
+  .hero-description {
+    max-width: 100%;
+    font-size: 2rem;
+  }
   .btns {
     flex-direction: column;
-    width: 50%;
-    text-align: center;
     display: inline-block;
   }
   .btn {
+    display: inline-block;
     margin-top: 1.2rem;
+    font-size: 2rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .description {
+    font-size: 2rem;
   }
   .features {
     grid-template-columns: 1fr;
+    padding: 0 6rem;
   }
-  .section-clipboard .btns {
-    display: inline-block;
+  .feature-text {
     text-align: center;
   }
+  .heading-tertiary {
+    font-size: 2.8rem;
+  }
+  .text-tertiary {
+    max-width: 100%;
+    font-size: 2rem;
+  }
+  .devices-text {
+    padding: 0 4rem;
+  }
+  .plan-elements {
+    padding: 0 4rem;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .partners {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .partners-image {
+    width: 30%;
+  }
   .clipboard-text {
-    margin: 0;
+    padding: 0 4rem;
+  }
+  .section-clipboard .btns {
+    display: flex;
+    align-items: center;
   }
   .footer {
     display: grid;
@@ -297,9 +333,27 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  .footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-img {
+    width: 20%;
+  }
   .footer-links {
     display: inline;
     margin: 5rem 0;
     text-align: center;
+  }
+  .footer-link-list {
+    font-size: 2.2rem;
+    margin-top: 2rem;
+  }
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
   }
 }
